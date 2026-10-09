@@ -2,10 +2,154 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarefas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <meta name="theme-color" content="#211e1d">
+    <title>Tarefas Tabalhos Uninove"</title>
+    <link rel="stylesheet" href="stylestemp.css">
 </head>
     <body>
-        
-    </body>
+   <div class="app-shell">
+            <aside class="sidebar" aria-label= "Navegação principal" a class= "brand" href="#inicio"aria-label="Tarefas,início">
+                <span class="brand-mark" aria-hidden="true" span>
+                 <span> Tarefas</span>
+                <span class = "sidebar-toggle" aria-hidden="true"></span>
+           </a>
+         <nav class="primary-nav">
+        <a class ="nav-lnk nav-link-active"
+                    href="#projetos">span aria-hidden="true">/span>Meus projetos</a>
+     </nav>
+      <div class="sidebar-bottom">
+                <span class="sidebar-caption">ESPAÇO DE TRABALHO</span>
+                <a class="nav-link" href="#equipe"><span aria-hidden="true"></span> Minha equipe</a>
+                <a class="nav-link" href="#configurações"><span aria-hidden="true">
+                    </span> Configurações</a>
+                    div class="profile">
+                    <span class="avatar avatar-coral">MM</span>
+                    <span class="profile-copy"><strong> Matheus Martins</strong><small>Estudante</small></span>aria-hidden="true"></span>
+                    </div>
+                     </div>
+                    </aside>
+                    <main class="main-content" id="inicio
+                    <header class="topbar">
+                        <div class="breadcrumbs"><a
+                            href="#projetos">Meus projetos</a><span></span><strong>Trabalhos Uninove</strong></div><botton class="button button-primary" type="button" data-open-task-form><span 
+       
+                                aria-hidden="true">+</span> Adicionar tarefa</botton>
+                            /<header>
+                                <section class="project-heading" aria-labelledby="project-title">
+				<div class="project-copy">
+					<p class="eyebrow">PROJETO</p>
+					<h1 id="project-title">Trabalhos Uninove</h1>
+					<p class="project-description"> Organização do grupo para entrega das atividades</p>
+				</div>
+				<div class="project-team" aria-label="Equipe com cinco membros">
+					<div class="avatar-stack" aria-hidden="true">
+						<span class="avatar avatar-coral"></span><span class="avatar avatar-blue">LA</span><span class="avatar avatar-green">JS</span><span class="avatar avatar-extra">+2</span>
+					</div>
+					<span>5 membros</span>
+				</div>
+			</section>
+
+			<section class="workspace" aria-label="Tarefas do projeto">
+				<div class="view-toolbar">
+					<div class="view-switch" role="tablist" aria-label="Visualização das tarefas">
+						<input class="view-input" type="radio" name="view" id="view-board" checked>
+						<label class="view-tab" for="view-board" role="tab"><span aria-hidden="true"></span> Quadro</label>
+						<input class="view-input" type="radio" name="view" id="view-list">
+						<label class="view-tab" for="view-list" role="tab"><span aria-hidden="true"></span> Lista</label>
+					</div>
+					<button class="filter-button" type="button" aria-expanded="false" aria-controls="filter-panel"><span aria-hidden="true">☷</span> Filtros <span class="filter-count" hidden>0</span></button>
+					<div class="filter-panel" id="filter-panel" role="group" aria-label="Filtros das tarefas" hidden>
+						<div class="filter-fields">
+							<label class="form-field">Responsável
+								<select data-task-filter="assignee"><option value="">Todos</option></select>
+							</label>
+							<label class="form-field">Status
+								<select data-task-filter="status"><option value="">Todos</option><option value="todo">A fazer</option><option value="progress">Em andamento</option><option value="done">Concluída</option><option value="late">Atrasada</option></select>
+							</label>
+							<label class="form-field">Prioridade
+                </body>
+                <select data-task-filter="priority"><option value="">Todas</option><option value="high">Alta</option><option value="medium">Média</option><option value="low">Baixa</option></select>
+							</label>
+							<label class="form-field">Categoria
+								<select data-task-filter="category"><option value="">Todas</option></select>
+							</label>
+						</div>
+						<div class="filter-actions"><button class="filter-clear" type="button" data-clear-filters>Limpar filtros</button></div>
+					</div>
+				</div>
+
+				<div class="board-view">
+					<div class="board-scroll">
+						<section class="task-column">
+							<header class="column-heading"><h2>A fazer</h2><span class="task-count">0</span><button class="more-button" type="button" aria-label="Mais opções">···</button></header>
+							<div class="task-list"></div>
+							<button class="add-card" type="button" data-open-task-form><span aria-hidden="true"></span> Adicionar tarefa</button>
+						</section>
+
+						<section class="task-column">
+							<header class="column-heading"><h2>Em andamento</h2><span class="task-count">0</span><button class="more-button" type="button" aria-label="Mais opções"></button></header>
+							<div class="task-list"></div>
+							<button class="add-card" type="button" data-open-task-form><span aria-hidden="true"></span> Adicionar tarefa</button>
+						</section>
+
+						<section class="task-column">
+							<header class="column-heading"><h2>Concluídas</h2><span class="task-count">0</span><button class="more-button" type="button" aria-label="Mais opções"></button></header>
+							<div class="task-list"></div>
+							<button class="add-card" type="button" data-open-task-form><span aria-hidden="true"></span> Adicionar tarefa</button>
+						</section>
+
+						<section class="task-column">
+							<header class="column-heading"><h2>Atrasadas</h2><span class="task-count">0</span><button class="more-button" type="button" aria-label="Mais opções"></button></header>
+							<div class="task-list"></div>
+							<button class="add-card" type="button" data-open-task-form><span aria-hidden="true"></span> Adicionar tarefa</button>
+						</section>
+					</div>
+                    <div class="list-view" aria-label="Lista de tarefas">
+					<div class="table-scroll"><table>
+						<thead><tr><th>Tarefa</th><th>Responsável</th><th>Prioridade</th><th>Data de entrega</th><th>Status</th></tr></thead>
+			<tbody></tbody>
+		</table></div>
+		<p class="table-footer">Mostrando 0 tarefas</p>
+				</div>
+			</section>
+		</main>
+	</div>
+	<dialog class="task-dialog" id="task-dialog" aria-labelledby="task-dialog-title">
+		<form id="task-form" class="task-form">
+			<header class="dialog-header">
+				<h2 id="task-dialog-title"><span aria-hidden="true" data-dialog-icon></span> <span data-dialog-title>Nova tarefa</span></h2>
+				<button class="dialog-close" type="button" aria-label="Fechar" data-close-task-form></button>
+			</header>
+			<div class="dialog-content">
+				<label class="form-field form-field-wide">Título da tarefa <span></span>
+					<input name="title" type="text" placeholder="Digite o título da tarefa..." maxlength="90" required autofocus>
+				</label>
+				<label class="form-field form-field-wide">Descrição <small>(opcional)</small>
+					<textarea name="description" rows="3" placeholder="Digite a descrição..."></textarea>
+				</label>
+				<label class="form-field">Responsável <span>*</span>
+					<select name="assignee" required><option value="">Selecionar responsável</option><option>Matheus Martins</option><option>Luanna dos Anjos</option><option>Jessica Scarlette</option><option>Marcos Fernandes</option><option>Murilo Azedo</option></select>
+				</label>
+				<label class="form-field">Categoria <span>*</span>
+					<select name="category" required><option value="">Selecionar categoria</option><option>Pesquisa</option><option>Design</option><option>Desenvolvimento</option><option>Documentação</option></select>
+				</label>
+				<label class="form-field">Status
+					<select name="status"><option value="todo">A fazer</option><option value="progress">Em andamento</option><option value="done">Concluída</option><option value="late">Atrasada</option></select>
+				</label>
+				<label class="form-field">Data de entrega
+					<input name="dueDate" type="date">
+				</label>
+				<label class="form-field">Prioridade
+					<select name="priority"><option value="medium">Média</option><option value="high">Alta</option><option value="low">Baixa</option></select>
+				</label>
+			</div>
+			<footer class="dialog-footer">
+				<button class="button button-secondary" type="button" data-close-task-form>Cancelar</button>
+				<button class="button button-primary" type="submit">Criar tarefa</button>
+			</footer>
+		</form>
+	</dialog>
+	<script src="script.js" defer></script>
+</body>
 </html>
