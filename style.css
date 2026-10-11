@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+:root {
+  color-scheme: light;
+  --ink: #282523; 
+  --muted: #5D6875;
+  --line: #DFDFDF;
+  --surface: #FFFFFF;
+  --canvas: #F5F5F6;
+  --sidebar: #26201E;
+  --accent: #C51F3B;
+  --green: #299B68;
+  --yellow: #F1D928;
+  --orange: #F47C35;
+  font-family: 'Roboto', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { 
+  box-sizing: border-box; 
+}
+
+body { 
+  margin: 0; 
+  min-width: 320px; 
+  color: var(--ink); 
+  background: var(--canvas); 
+}
+
+button, input { 
+  font: inherit; 
+}
+button { 
+  cursor: pointer; 
+}
+
+a { 
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.app-shell { 
+  display: flex; 
+  min-height: 100vh; 
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    width: 253px;
+    height: 100vh;
+    flex: 0 0 253px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 14px 14px;
+    overflow-y: auto;
+    background: var(--sidebar);
+    color: #fdfdfd;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height: 34px;
+    padding: 0 8px;
+    font: 700 32px 'Roboto', sans-serif;
+}
+
+.brand-mark {
+    width: 34px;
+    height: 34px;
+}
+
+.brand-mark img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.sidebar-toggle {
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+}
+
+.sidebar-toggle img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.sidebar-toggle {
+  margin-left: auto; 
+  font: 13px sans-serif; 
+  color: #c8c5c3; 
+}
+.primary-nav { 
+  margin-top: 40px; 
+}
+
+.nav-link { 
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  min-height: 38px; 
+  padding: 0 10px; 
+  border-radius: 5px; 
+  color: #c3bfbd; 
+  font-size: 12px; 
+}
+
+.nav-link > span { 
+  width: 16px; 
+  text-align: center; 
+  font-size: 16px; 
+}
+.nav-link-active, .nav-link:hover { 
+  background: #393432; 
+  color: #fff; 
+}
+
+.sidebar-bottom { 
+  margin-top: auto; 
+}
+
+.sidebar-caption { 
+  display: block; 
+  padding: 0 10px 9px; 
+  color: #85807e; 
+  font-size: 9px; 
+  font-weight: 700; 
+  letter-spacing: 0; 
+}
+
+.profile { 
+  display: flex; 
+  align-items: center; 
+  gap: 9px; 
+  margin-top: 18px; 
+  padding: 13px 8px 2px; 
+  border-top: 1px solid #393432; 
+}
+
+.profile-copy { 
+  display: grid; 
+  gap: 2px; 
+  font-size: 11px; 
+}
+  
+.profile-copy small { 
+    color: #aaa4a1; 
+    font-size: 10px; 
+}
+
+.profile-menu { 
+  margin-left: auto; 
+  color: #b8b2af; 
+}
