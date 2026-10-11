@@ -4,7 +4,8 @@
   --ink: #282523; 
   --muted: #5D6875;
   --line: #DFDFDF;
-  --surface: #FFFFFF;
+  --white: #FFFFFF;
+  --surface: #EAEBEC;
   --canvas: #F5F5F6;
   --sidebar: #26201E;
   --accent: #C51F3B;
@@ -157,4 +158,58 @@ a {
 .profile-menu { 
   margin-left: auto; 
   color: #b8b2af; 
+}
+
+.main-content { 
+  min-width: 0; 
+  flex: 1; 
+}
+
+.topbar { 
+  height: 64px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 30px; 
+  background: var(--surface); 
+}
+
+.breadcrumbs { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+  color: #9a9da3; 
+  font-size: 16px; 
+}
+
+.breadcrumbs strong { 
+  color: #4d4b49; 
+  font-weight: 600; 
+}
+
+.breadcrumbs span { 
+  color: #c0c1c4; 
+}
+
+.button { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 5px; 
+  border: 0; 
+  border-radius: 8px; 
+  font-size: 14px; 
+  font-weight: 500; 
+}
+
+.button-primary { 
+  min-height: 39px; 
+  padding: 0 13px; 
+  background: var(--accent); 
+  color: var(--white); 
+  box-shadow: 0 2px 5px #d51f4320; 
+}
+
+.button-primary:hover { 
+  background: #b91b3a; 
 }
